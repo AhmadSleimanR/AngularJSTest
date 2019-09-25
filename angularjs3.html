@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <body>
+        <div data-ng-app="" data-ng-init="myCol='lightBlue'">
+            <input style="background-color:{{myCol}}" data-ng-model="myCol">
+            <br>
+            <input type="text" data-ng-model="newCol">
+            <p style="background-color:{{newCol}}">This is a test color changer</p>
+        </div>
+    </body>
+</html>
